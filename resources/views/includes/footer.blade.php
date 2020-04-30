@@ -26,6 +26,7 @@
               <a href="/more" class="footer-body d-block mt-2"> &raquo; &nbsp; More</a>
               <a href="/gallery" class="footer-body d-block mt-2"> &raquo; &nbsp; Gallery</a>
               <a href="/resources" class="footer-body d-block mt-2"> &raquo; &nbsp; Resources</a>
+              <a href="https://www.adventist.org/" class="footer-body d-block mt-2"> &raquo; &nbsp; Adventist.org</a>
             </div>
         </div>
         <div class=" col-sm-4 col-md-3 mb-5">

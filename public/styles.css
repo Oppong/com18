@@ -5,6 +5,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+}
+
+.icon {
+  color: #019090;
 }
 
 /* navigation */
@@ -42,13 +47,89 @@ nav {
   }
 }
 
+/* banner section */
+
+.banner {
+  text-align: center;
+  color: white;
+  padding: 12% 0;
+}
+.banner-heading {
+  font-weight: bolder;
+  font-size: 6rem;
+}
+
+.banner-body {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 578px) {
+
+  .banner {
+    padding: 50% 0;
+  }
+
+  .banner-heading {
+    font-weight: bolder;
+    font-size: 2.8rem;
+  }
+
+  .banner-body {
+    padding: 0 10%;
+  }
+
+}
+
+
+/* introduction-section */
+
+.introduction-section {
+  padding: 10% 15%;
+}
+
+.introduction-section-title {
+  font-weight: bolder;
+}
+
+.introduction-section-body {
+line-height: 1.7;
+}
 
 
 
 
+/* contact section */
+.contact {
+  padding: 3% 15%;
+}
+
+.contact-title {
+  font-weight: bolder;
+}
+
+.contact-form {
+  padding: 8% 15%;
+}
+
+.contact-form-heading {
+  font-weight: bolder;
+}
 
 
+/* mission section */
 
+.mission {
+  padding: 8% 15%;
+}
+
+.mission-heading {
+  font-weight: bolder;
+}
+
+.mission-body {
+  
+}
 /* footer secction */
 
 footer {

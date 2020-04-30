@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 // these are the routes for the main pages
 Route::get('/', 'PagesController@index')->name('homepage');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/about', 'PagesController@about');
 
 
 
