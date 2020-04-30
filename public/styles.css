@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+
+/* navigation */
+.intro {
+  text-align: center;
+  color: white;
+  padding: 15% 15%;
+}
+.intro-heading {
+  font-weight: bolder;
+  font-size: 6.5rem;
+}
+
+.intro-body {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+nav {
+  padding: 15% 15%;
+}
+
+@media screen and (max-width: 578px) {
+  .intro {
+    padding: 50% 10%;
+  }
+
+  .intro-heading {
+    font-size: 3rem;
+  }
+
+  .intro-body {
+      margin-bottom:10%;
+      font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* footer secction */
+
+footer {
+  padding: 7% 15%;
+}
+
+.footer-body {
+  color: #CDD3DD;
+}
