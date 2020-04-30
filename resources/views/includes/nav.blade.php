@@ -29,15 +29,15 @@
           <div class="dropdown">
             <a href="" class="nav-link text-white mr-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton">More</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-             <a class="dropdown-item text-muted" href="mission"> <i class="fas fa-book-open "></i> &nbsp;Mission and Vision</a>
+             <a class="dropdown-item text-muted" href="#"> Trnity Acapella</a>
              <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="patrons"> <i class="fas fa-id-badge"></i> &nbsp;Patrons</a>
+             <a class="dropdown-item text-muted" href="#"> Downloads</a>
              <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="executives"> <i class="fas fa-file-image"></i> &nbsp;Executives</a>
+             <a class="dropdown-item text-muted" href="#"> Videos</a>
              <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="management"> <i class="fas fa-book-reader"></i> &nbsp;Management</a>
+             <a class="dropdown-item text-muted" href="#"> Newsletter</a>
              <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="/members"> <i class="fas fa-users "></i> &nbsp;Members</a>
+             <a class="dropdown-item text-muted" href="#"> Members</a>
            </div>
           </div>
         </li>
