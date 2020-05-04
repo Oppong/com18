@@ -44,6 +44,7 @@
 
     <div class="col-md-2 bg-light">
          <a href="{{route('slider.index')}}" class="nav-link text-muted"> <i class="fas fa-users"></i> &nbsp; Slider</a>
+         <a href="{{route('event.index')}}" class="nav-link text-muted"> <i class="fas fa-image"></i> &nbsp; Events</a>
     </div>
 
     <div class="col-md-10">

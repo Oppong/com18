@@ -22,6 +22,8 @@ Route::get('/', 'PagesController@index')->name('homepage');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/about', 'PagesController@about');
 
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 
@@ -29,7 +31,5 @@ Route::get('/about', 'PagesController@about');
 Route::prefix('admin')->group(function(){
     Route::get('adminhome', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
     Route::resource('slider','Admin\SliderController');
+    Route::resource('event','Admin\EventsController');
 });
-
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
