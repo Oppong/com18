@@ -16,15 +16,34 @@
           <a href="/contact" class="nav-link text-white mr-2" >Contact Us</a>
         </li>
         <li class="nav-item">
-          <a href="/gallery" class="nav-link text-white mr-2" >Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a href="/gallery" class="nav-link text-white mr-2" >Department</a>
-        </li>
-        <li class="nav-item">
           <a href="/resources" class="nav-link text-white mr-2" >Resources</a>
         </li>
-
+        <li class="nav-item">
+          <div class="dropdown">
+            <a href="" class="nav-link text-white mr-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMediaButton" >Media</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMediaButton">
+             <a class="dropdown-item text-muted" href="#"> Gallery</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item text-muted" href="#"> Videos</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item text-muted" href="#"> Newsletter</a>
+           </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a href="" class="nav-link text-white mr-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownDeptButton" >Department</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownDeptButton">
+             <a class="dropdown-item text-muted" href="#"> Adventist Men</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item text-muted" href="#"> Women Ministry</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item text-muted" href="#"> Personal Ministry</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item text-muted" href="#">Music Department</a>
+           </div>
+          </div>
+        </li>
         <li class="nav-item">
           <div class="dropdown">
             <a href="" class="nav-link text-white mr-2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton">More</a>
@@ -33,11 +52,7 @@
              <div class="dropdown-divider"></div>
              <a class="dropdown-item text-muted" href="#"> Downloads</a>
              <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="#"> Videos</a>
-             <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="#"> Newsletter</a>
-             <div class="dropdown-divider"></div>
-             <a class="dropdown-item text-muted" href="#"> Members</a>
+             <a class="dropdown-item text-muted" href="#"> Divine Singers</a>
            </div>
           </div>
         </li>
