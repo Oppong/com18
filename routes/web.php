@@ -17,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/phpinfo', function () {
+    return view('phpinfo');
+});
+
 
 // these are the routes for the main pages
 Route::get('/', 'PagesController@index')->name('homepage');
